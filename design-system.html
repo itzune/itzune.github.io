@@ -1,0 +1,430 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Itzune — Design System (internal)</title>
+
+  <link rel="stylesheet" href="css/tokens.css" />
+  <link rel="stylesheet" href="css/main.css" />
+
+  <style>
+    main > .page-container { padding-top: var(--spacing-64); }
+
+    .ds-section {
+      display: flex;
+      flex-direction: column;
+      gap: var(--spacing-32);
+    }
+
+    .ds-row {
+      display: flex;
+      flex-wrap: wrap;
+      gap: var(--spacing-16);
+      align-items: flex-start;
+    }
+
+    /* ── Swatches ── */
+    .ds-color-item {
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      gap: 6px;
+      text-align: center;
+    }
+
+    .ds-swatch {
+      width: 56px;
+      height: 56px;
+      border-radius: var(--radius-lg);
+      border: 1px solid rgba(255,255,255,0.1);
+    }
+
+    .ds-swatch-label {
+      font-size: 11px;
+      color: var(--color-mist);
+      opacity: 0.7;
+      line-height: 1.4;
+    }
+
+    /* ── Elevation staircase ── */
+    .ds-elevation {
+      display: flex;
+      gap: var(--spacing-8);
+      flex-wrap: wrap;
+    }
+
+    .ds-surface {
+      flex: 1;
+      min-width: 100px;
+      padding: var(--spacing-16);
+      border-radius: var(--radius-lg);
+      border: 1px solid rgba(255,255,255,0.06);
+      font-size: var(--text-caption);
+      color: var(--color-mist);
+      text-align: center;
+      line-height: 1.6;
+    }
+
+    /* ── Type specimen ── */
+    .ds-type-specimen {
+      display: flex;
+      flex-direction: column;
+      gap: var(--spacing-16);
+      padding: var(--spacing-32);
+      background: var(--color-abyssal-blue);
+      border-radius: var(--radius-lg);
+      border: 1px solid rgba(255,255,255,0.06);
+    }
+
+    /* ── Token table ── */
+    .ds-table {
+      width: 100%;
+      border-collapse: collapse;
+      font-size: var(--text-caption);
+      font-family: var(--font-jetbrains-mono);
+    }
+
+    .ds-table th,
+    .ds-table td {
+      text-align: left;
+      padding: var(--spacing-8) var(--spacing-16);
+      border-bottom: 1px solid rgba(255,255,255,0.06);
+      color: var(--color-mist);
+    }
+
+    .ds-table th {
+      color: var(--color-ash);
+      font-weight: 400;
+      text-transform: uppercase;
+      letter-spacing: 0.06em;
+    }
+
+    .ds-table code {
+      background: rgba(255,255,255,0.05);
+      padding: 1px 6px;
+      border-radius: 3px;
+      font-size: 12px;
+    }
+
+    .ds-section-gap {
+      margin-top: var(--spacing-64);
+    }
+  </style>
+</head>
+<body>
+
+  <canvas id="ascii-hero" class="ascii-bg" aria-hidden="true"></canvas>
+
+  <nav class="nav" aria-label="Primary navigation">
+    <div class="nav__left">
+      <a href="index.html" class="nav__link" style="display:flex; align-items:center; gap:10px;">
+        <img src="img/itzune.jpg" alt="Itzune"
+          style="width:24px; height:24px; border-radius:4px; opacity:0.9;" />
+        <span>itzune</span>
+      </a>
+    </div>
+    <div class="nav__right">
+      <span class="nav__link" style="color: var(--color-itzune-orange);">design system</span>
+    </div>
+  </nav>
+
+  <main>
+    <div class="page-container">
+
+      <!-- Header ────────────────────────────── -->
+      <section class="ds-section">
+        <div>
+          <p class="caption" style="color: var(--color-itzune-orange); margin-bottom: var(--spacing-8);">
+            internal / design reference
+          </p>
+          <h1 class="section-heading" style="font-size: var(--text-heading);">
+            <span class="section-heading__icon" aria-hidden="true">◈</span>
+            itzune design system
+          </h1>
+          <div class="prose" style="margin-top: var(--spacing-16);">
+            <p>
+              Deep-ocean bioluminescent terminal. Adapted from the Midjourney
+              style reference to Itzune's neural-network logo palette.
+              Monospace everywhere. Colour only where it carries meaning.
+            </p>
+          </div>
+        </div>
+      </section>
+
+      <hr class="divider" style="margin: var(--spacing-48) 0;" />
+
+      <!-- Surfaces ───────────────────────────── -->
+      <section class="ds-section ds-section-gap">
+        <h2 class="section-heading">
+          <span class="section-heading__icon">◻</span>
+          surfaces
+        </h2>
+        <p class="caption" style="color:var(--color-ash);">
+          // elevation through color steps — no shadows on content elements
+        </p>
+        <div class="ds-elevation">
+          <div class="ds-surface" style="background:#06051d;">0<br/>cosmic void<br/><code>#06051d</code></div>
+          <div class="ds-surface" style="background:#061434;">1<br/>deep navy<br/><code>#061434</code></div>
+          <div class="ds-surface" style="background:#0f1c36;">2<br/>abyssal blue<br/><code>#0f1c36</code></div>
+          <div class="ds-surface" style="background:#1d293d;">3<br/>steel navy<br/><code>#1d293d</code></div>
+          <div class="ds-surface" style="background:#314062;">4<br/>deep slate<br/><code>#314062</code></div>
+        </div>
+      </section>
+
+      <hr class="divider" style="margin: var(--spacing-48) 0;" />
+
+      <!-- Accent Palette ─────────────────────── -->
+      <section class="ds-section ds-section-gap">
+        <h2 class="section-heading">
+          <span class="section-heading__icon">◈</span>
+          accent palette
+        </h2>
+        <p class="caption" style="color:var(--color-ash);">
+          // all sourced from itzune logo — sky blue · magenta · orange · amber · purple · red
+        </p>
+        <div class="ds-row">
+          <div class="ds-color-item">
+            <div class="ds-swatch" style="background:#4bb8e8;"></div>
+            <span class="ds-swatch-label">sky<br/><code>--color-itzune-sky</code><br/>#4bb8e8</span>
+          </div>
+          <div class="ds-color-item">
+            <div class="ds-swatch" style="background:#e91e8c;"></div>
+            <span class="ds-swatch-label">magenta<br/><code>--color-itzune-magenta</code><br/>#e91e8c</span>
+          </div>
+          <div class="ds-color-item">
+            <div class="ds-swatch" style="background:#f07030;"></div>
+            <span class="ds-swatch-label">orange<br/><code>--color-itzune-orange</code><br/>#f07030</span>
+          </div>
+          <div class="ds-color-item">
+            <div class="ds-swatch" style="background:#f5a020;"></div>
+            <span class="ds-swatch-label">amber<br/><code>--color-itzune-amber</code><br/>#f5a020</span>
+          </div>
+          <div class="ds-color-item">
+            <div class="ds-swatch" style="background:#8b35b8;"></div>
+            <span class="ds-swatch-label">purple<br/><code>--color-itzune-purple</code><br/>#8b35b8</span>
+          </div>
+          <div class="ds-color-item">
+            <div class="ds-swatch" style="background:#e84832;"></div>
+            <span class="ds-swatch-label">red<br/><code>--color-itzune-red</code><br/>#e84832</span>
+          </div>
+        </div>
+
+        <!-- Neutral text colours -->
+        <p class="caption" style="color:var(--color-ash); margin-top: var(--spacing-8);">
+          // neutrals
+        </p>
+        <div class="ds-row">
+          <div class="ds-color-item">
+            <div class="ds-swatch" style="background:#ffffff;"></div>
+            <span class="ds-swatch-label">ghost white<br/>#ffffff</span>
+          </div>
+          <div class="ds-color-item">
+            <div class="ds-swatch" style="background:#cad5e2;"></div>
+            <span class="ds-swatch-label">mist<br/>#cad5e2</span>
+          </div>
+          <div class="ds-color-item">
+            <div class="ds-swatch" style="background:#e5e7eb;"></div>
+            <span class="ds-swatch-label">fog<br/>#e5e7eb</span>
+          </div>
+          <div class="ds-color-item">
+            <div class="ds-swatch" style="background:#2e3038;"></div>
+            <span class="ds-swatch-label">ash<br/>#2e3038</span>
+          </div>
+        </div>
+      </section>
+
+      <hr class="divider" style="margin: var(--spacing-48) 0;" />
+
+      <!-- Typography ─────────────────────────── -->
+      <section class="ds-section ds-section-gap">
+        <h2 class="section-heading">
+          <span class="section-heading__icon">T</span>
+          typography
+        </h2>
+        <p class="caption" style="color:var(--color-ash);">
+          // JetBrains Mono dominates all UI — DM Sans prose only
+        </p>
+
+        <div class="ds-type-specimen">
+          <div style="font-family:var(--font-jetbrains-mono); font-size:30px; font-weight:400; color:#fff; line-height:1.25;">
+            heading / JetBrains Mono 30px wt 400
+          </div>
+          <div style="font-family:var(--font-jetbrains-mono); font-size:16px; font-weight:400; color:var(--color-mist); line-height:1.5;">
+            body copy / JetBrains Mono 16px wt 400 — the terminal speaks at
+            <a href="#">inline link in sky blue</a>
+          </div>
+          <div style="font-family:var(--font-jetbrains-mono); font-size:14px; font-weight:400; color:var(--color-ash); line-height:1.63;">
+            caption · metadata · JetBrains Mono 14px wt 400 · subdued
+          </div>
+          <div style="font-family:var(--font-dm-sans); font-size:16px; font-weight:500; color:var(--color-mist); line-height:1.5;">
+            DM Sans 500 — prose sections only, humanist contrast against mono primary
+          </div>
+        </div>
+
+        <table class="ds-table">
+          <thead>
+            <tr><th>Role</th><th>Size</th><th>Line Height</th><th>Font</th><th>Token</th></tr>
+          </thead>
+          <tbody>
+            <tr><td>heading</td><td>30px</td><td>1.25</td><td>JetBrains Mono 400</td><td><code>--text-heading</code></td></tr>
+            <tr><td>body</td><td>16px</td><td>1.5</td><td>JetBrains Mono 400</td><td><code>--text-body</code></td></tr>
+            <tr><td>caption</td><td>14px</td><td>1.63</td><td>JetBrains Mono 400</td><td><code>--text-caption</code></td></tr>
+            <tr><td>prose</td><td>16px</td><td>1.5</td><td>DM Sans 500</td><td><code>--font-dm-sans</code></td></tr>
+          </tbody>
+        </table>
+      </section>
+
+      <hr class="divider" style="margin: var(--spacing-48) 0;" />
+
+      <!-- Buttons ────────────────────────────── -->
+      <section class="ds-section ds-section-gap">
+        <h2 class="section-heading">
+          <span class="section-heading__icon">◉</span>
+          specimen pill buttons
+        </h2>
+        <p class="caption" style="color:var(--color-ash);">
+          // closed triad — categorical, not hierarchical. never add a fourth colour.
+        </p>
+        <div class="ds-row">
+          <div style="display:flex; flex-direction:column; align-items:flex-start; gap:8px;">
+            <a href="#" class="btn btn--signup">sign up</a>
+            <span class="caption" style="color:var(--color-ash);">bg #6b0845 @20% · text #e91e8c</span>
+          </div>
+          <div style="display:flex; flex-direction:column; align-items:flex-start; gap:8px;">
+            <a href="#" class="btn btn--explore">explore</a>
+            <span class="caption" style="color:var(--color-ash);">bg #0a3a5a @20% · text #4bb8e8</span>
+          </div>
+          <div style="display:flex; flex-direction:column; align-items:flex-start; gap:8px;">
+            <a href="#" class="btn btn--contact">contact</a>
+            <span class="caption" style="color:var(--color-ash);">bg #5a2800 @20% · text #f5a020</span>
+          </div>
+        </div>
+        <div class="ds-row">
+          <a href="#" class="btn btn--signup  btn--lg">sign up · lg</a>
+          <a href="#" class="btn btn--explore btn--lg">explore · lg</a>
+          <a href="#" class="btn btn--contact btn--lg">contact · lg</a>
+        </div>
+      </section>
+
+      <hr class="divider" style="margin: var(--spacing-48) 0;" />
+
+      <!-- Tags ───────────────────────────────── -->
+      <section class="ds-section ds-section-gap">
+        <h2 class="section-heading">
+          <span class="section-heading__icon">◇</span>
+          categorical tags
+        </h2>
+        <div class="ds-row">
+          <span class="tag tag--sky">research</span>
+          <span class="tag tag--magenta">open-source</span>
+          <span class="tag tag--amber">dataset</span>
+          <span class="tag tag--orange">tooling</span>
+          <span class="tag tag--purple">design</span>
+        </div>
+      </section>
+
+      <hr class="divider" style="margin: var(--spacing-48) 0;" />
+
+      <!-- Inputs ─────────────────────────────── -->
+      <section class="ds-section ds-section-gap">
+        <h2 class="section-heading">
+          <span class="section-heading__icon">_</span>
+          form input
+        </h2>
+        <input
+          class="input"
+          type="text"
+          placeholder="enter terminal command..."
+          style="max-width:380px;"
+          aria-label="Example input"
+        />
+      </section>
+
+      <hr class="divider" style="margin: var(--spacing-48) 0;" />
+
+      <!-- Spacing ─────────────────────────────── -->
+      <section class="ds-section ds-section-gap">
+        <h2 class="section-heading">
+          <span class="section-heading__icon">↔</span>
+          spacing scale
+        </h2>
+        <p class="caption" style="color:var(--color-ash);">// base unit 8px</p>
+        <table class="ds-table">
+          <thead>
+            <tr><th>Token</th><th>Value</th><th>Visual</th></tr>
+          </thead>
+          <tbody>
+            <tr><td><code>--spacing-8</code></td><td>8px</td>
+              <td><div style="height:8px; width:8px; background:var(--color-itzune-sky); border-radius:2px;"></div></td></tr>
+            <tr><td><code>--spacing-16</code></td><td>16px</td>
+              <td><div style="height:8px; width:16px; background:var(--color-itzune-sky); border-radius:2px;"></div></td></tr>
+            <tr><td><code>--spacing-24</code></td><td>24px</td>
+              <td><div style="height:8px; width:24px; background:var(--color-itzune-sky); border-radius:2px;"></div></td></tr>
+            <tr><td><code>--spacing-32</code></td><td>32px</td>
+              <td><div style="height:8px; width:32px; background:var(--color-itzune-sky); border-radius:2px;"></div></td></tr>
+            <tr><td><code>--spacing-48</code></td><td>48px</td>
+              <td><div style="height:8px; width:48px; background:var(--color-itzune-sky); border-radius:2px;"></div></td></tr>
+            <tr><td><code>--spacing-64</code></td><td>64px</td>
+              <td><div style="height:8px; width:64px; background:var(--color-itzune-sky); border-radius:2px;"></div></td></tr>
+          </tbody>
+        </table>
+      </section>
+
+      <hr class="divider" style="margin: var(--spacing-48) 0;" />
+
+      <!-- CSS Tokens Quick Reference ─────────── -->
+      <section class="ds-section ds-section-gap">
+        <h2 class="section-heading">
+          <span class="section-heading__icon">{}</span>
+          css custom properties
+        </h2>
+        <p class="caption" style="color:var(--color-ash);">// copy into your :root {}</p>
+
+        <div style="background:var(--color-abyssal-blue); border-radius:var(--radius-lg); padding:var(--spacing-24); border:1px solid rgba(255,255,255,0.06); overflow-x:auto;">
+          <pre style="font-family:var(--font-jetbrains-mono); font-size:12px; color:var(--color-mist); line-height:1.6; white-space:pre; margin:0;">/* surfaces */
+--color-cosmic-void:       #06051d
+--color-abyssal-blue:      #0f1c36
+--color-steel-navy:        #1d293d
+--color-deep-slate:        #314062
+
+/* itzune accents */
+--color-itzune-sky:        #4bb8e8
+--color-itzune-magenta:    #e91e8c
+--color-itzune-orange:     #f07030
+--color-itzune-amber:      #f5a020
+--color-itzune-purple:     #8b35b8
+
+/* text */
+--color-mist:              #cad5e2
+--color-ghost-white:       #ffffff
+--color-ash:               #2e3038
+
+/* type */
+--font-jetbrains-mono: 'JetBrains Mono', monospace
+--font-dm-sans:        'DM Sans', sans-serif
+
+/* spacing */
+--spacing-8: 8px  --spacing-16: 16px  --spacing-24: 24px
+--spacing-32: 32px  --spacing-48: 48px  --spacing-64: 64px
+
+/* radius */
+--radius-lg:   8px
+--radius-full: 9999px</pre>
+        </div>
+      </section>
+
+    </div><!-- /page-container -->
+  </main>
+
+  <footer class="footer">
+    <span class="footer__copy">itzune design system &mdash; internal reference</span>
+    <nav class="footer__links" aria-label="Footer links">
+      <a href="index.html">back to site</a>
+    </nav>
+  </footer>
+
+  <script src="js/ascii-hero.js"></script>
+
+</body>
+</html>
