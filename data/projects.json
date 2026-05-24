@@ -30,8 +30,8 @@
       "id": "whisper-basque-ft",
       "tag": "models",
       "title": {
-        "eu": "Whisper euskaraz eredu bilduma",
-        "en": "Whisper Basque FT"
+        "eu": "Whisper euskaraz",
+        "en": "Whisper euskaraz"
       },
       "url": "https://huggingface.co/collections/xezpeleta/whisper-basque-fine-tuning",
       "body": {
