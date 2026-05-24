@@ -73,6 +73,12 @@
     .social-icon {
       opacity: 0.8;
     }
+
+    @media (max-width: 768px) {
+      .nav__link--page {
+        display: none;
+      }
+    }
   </style>
 </head>
 <body>
@@ -91,8 +97,8 @@
       </a>
     </div>
     <div class="nav__right">
-      <a href="#about" class="nav__link" data-i18n="nav.about">nor gara</a>
-      <a href="#projects" class="nav__link" data-i18n="nav.projects">proiektuak</a>
+      <a href="#about" class="nav__link nav__link--page" data-i18n="nav.about">nor gara</a>
+      <a href="#projects" class="nav__link nav__link--page" data-i18n="nav.projects">proiektuak</a>
       <div class="lang-switch" aria-label="Language switcher">
         <button type="button" class="lang-btn is-active" data-lang="eu">EU</button>
         <button type="button" class="lang-btn" data-lang="en">EN</button>
