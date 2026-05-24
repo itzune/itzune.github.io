@@ -1,0 +1,121 @@
+{
+  "projects": [
+    {
+      "id": "evaleu",
+      "tag": "others",
+      "title": {
+        "eu": "Evaleu",
+        "en": "Evaleu"
+      },
+      "url": "https://itzune.github.io/evaleu/",
+      "body": {
+        "eu": "Euskarazko LLM ebaluazio leaderboard-a.",
+        "en": "Basque LLM evaluation leaderboard."
+      }
+    },
+    {
+      "id": "piper-demo",
+      "tag": "others",
+      "title": {
+        "eu": "Piper TTS Demo",
+        "en": "Piper TTS Demo"
+      },
+      "url": "https://itzune.github.io/basque-piper-tts/",
+      "body": {
+        "eu": "Euskarazko Piper TTS demo interaktiboa.",
+        "en": "Interactive Basque Piper TTS demo."
+      }
+    },
+    {
+      "id": "whisper-basque-ft",
+      "tag": "models",
+      "title": {
+        "eu": "Whisper euskaraz eredu bilduma",
+        "en": "Whisper Basque FT"
+      },
+      "url": "https://huggingface.co/collections/xezpeleta/whisper-basque-fine-tuning",
+      "body": {
+        "eu": "Whisper euskaraz eredu bilduma.",
+        "en": "Fine-tuned Whisper collection for Basque."
+      }
+    },
+    {
+      "id": "maider-tts",
+      "tag": "models",
+      "title": {
+        "eu": "Maider TTS",
+        "en": "Maider TTS"
+      },
+      "url": "https://huggingface.co/itzune/maider-tts",
+      "body": {
+        "eu": "Euskarazko testutik-ahotsera eredua.",
+        "en": "Basque text-to-speech model."
+      }
+    },
+    {
+      "id": "antton-tts",
+      "tag": "models",
+      "title": {
+        "eu": "Antton TTS",
+        "en": "Antton TTS"
+      },
+      "url": "https://huggingface.co/itzune/antton-tts",
+      "body": {
+        "eu": "Euskarazko testutik-ahotsera eredua.",
+        "en": "Basque text-to-speech model."
+      }
+    },
+    {
+      "id": "antzoki-tts",
+      "tag": "models",
+      "title": {
+        "eu": "Antzoki TTS",
+        "en": "Antzoki TTS"
+      },
+      "url": "https://huggingface.co/itzune/antzoki-tts",
+      "body": {
+        "eu": "Euskarazko testutik-ahotsera eredua.",
+        "en": "Basque text-to-speech model."
+      }
+    },
+    {
+      "id": "parakeet-tdt",
+      "tag": "models",
+      "title": {
+        "eu": "Parakeet-TDT-0.6b-v3-basque",
+        "en": "Parakeet-TDT-0.6b-v3-basque"
+      },
+      "url": "https://huggingface.co/itzune/parakeet-tdt-0.6b-v3-basque",
+      "body": {
+        "eu": "Euskarazko hizketa ereduaren checkpoint-a.",
+        "en": "Basque speech model checkpoint."
+      }
+    },
+    {
+      "id": "antton-dataset",
+      "tag": "datasets",
+      "title": {
+        "eu": "Antton Datu-multzoa",
+        "en": "Antton Dataset"
+      },
+      "url": "https://huggingface.co/datasets/itzune/antton-dataset",
+      "body": {
+        "eu": "Euskarazko hizketa ereduak garatzeko datu-multzo irekia.",
+        "en": "Open dataset for Basque speech model development."
+      }
+    },
+    {
+      "id": "maider-dataset",
+      "tag": "datasets",
+      "title": {
+        "eu": "Maider Datu-multzoa",
+        "en": "Maider Dataset"
+      },
+      "url": "https://huggingface.co/datasets/itzune/maider-dataset",
+      "body": {
+        "eu": "Euskarazko hizketa ereduak garatzeko datu-multzo irekia.",
+        "en": "Open dataset for Basque speech model development."
+      }
+    }
+  ]
+}
