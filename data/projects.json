@@ -40,29 +40,16 @@
       }
     },
     {
-      "id": "maider-tts",
+      "id": "piper-tts",
       "tag": "models",
       "title": {
-        "eu": "Maider TTS",
-        "en": "Maider TTS"
+        "eu": "Piper TTS ahotsak",
+        "en": "Piper TTS voices"
       },
-      "url": "https://huggingface.co/itzune/maider-tts",
+      "url": "https://huggingface.co/collections/itzune/piper-tts",
       "body": {
-        "eu": "Euskarazko testutik-ahotsera eredua.",
-        "en": "Basque text-to-speech model."
-      }
-    },
-    {
-      "id": "antton-tts",
-      "tag": "models",
-      "title": {
-        "eu": "Antton TTS",
-        "en": "Antton TTS"
-      },
-      "url": "https://huggingface.co/itzune/antton-tts",
-      "body": {
-        "eu": "Euskarazko testutik-ahotsera eredua.",
-        "en": "Basque text-to-speech model."
+        "eu": "Euskarazko Piper TTS ahots bilduma.",
+        "en": "Collection of Basque Piper TTS voices."
       }
     },
     {
