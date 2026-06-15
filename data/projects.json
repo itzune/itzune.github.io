@@ -14,6 +14,19 @@
       }
     },
     {
+      "id": "nongoeuskara",
+      "tag": "others",
+      "title": {
+        "eu": "Nongoeuskara",
+        "en": "Nongoeuskara"
+      },
+      "url": "https://itzune.eus/nongoeuskara/",
+      "body": {
+        "eu": "Zein euskalki da hau?",
+        "en": "Zein euskalki da hau?"
+      }
+    },
+    {
       "id": "piper-demo",
       "tag": "others",
       "title": {
@@ -24,6 +37,19 @@
       "body": {
         "eu": "Euskarazko Piper TTS demo interaktiboa.",
         "en": "Interactive Basque Piper TTS demo."
+      }
+    },
+    {
+      "id": "zeineuski",
+      "tag": "models",
+      "title": {
+        "eu": "Zeineuski",
+        "en": "Zeineuski"
+      },
+      "url": "https://huggingface.co/itzune/zeineuski",
+      "body": {
+        "eu": "Euskalki identifikazioa.",
+        "en": "Basque dialect identification."
       }
     },
     {
