@@ -1,6 +1,32 @@
 {
   "projects": [
     {
+      "id": "txukun",
+      "tag": "others",
+      "title": {
+        "eu": "Txukun",
+        "en": "Txukun"
+      },
+      "url": "https://itzune.eus/txukun/",
+      "body": {
+        "eu": "Euskarazko testu zuzentzailea — maiuskulak, puntuazioa eta ortografia.",
+        "en": "Basque text correction — capitalization, punctuation and spelling."
+      }
+    },
+    {
+      "id": "txukun-cli",
+      "tag": "others",
+      "title": {
+        "eu": "Txukun CLI",
+        "en": "Txukun CLI"
+      },
+      "url": "https://github.com/itzune/txukun-cli",
+      "body": {
+        "eu": "Komando-lerroko testu zuzentzailea — ONNX eredu kuantizatuarekin.",
+        "en": "Command-line text corrector — with quantized ONNX model."
+      }
+    },
+    {
       "id": "evaleu",
       "tag": "others",
       "title": {
@@ -37,6 +63,19 @@
       "body": {
         "eu": "Euskarazko Piper TTS demo interaktiboa.",
         "en": "Interactive Basque Piper TTS demo."
+      }
+    },
+    {
+      "id": "txukun-cap-punct-eu",
+      "tag": "models",
+      "title": {
+        "eu": "Txukun Cap+Punct (ONNX)",
+        "en": "Txukun Cap+Punct (ONNX)"
+      },
+      "url": "https://huggingface.co/itzune/txukun-cap-punct-eu",
+      "body": {
+        "eu": "Maiuskulak eta puntuazioa berrezartzeko ONNX eredu kuantizatua.",
+        "en": "Quantized ONNX model for capitalization and punctuation restoration."
       }
     },
     {
