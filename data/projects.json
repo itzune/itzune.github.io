@@ -1,21 +1,9 @@
 {
   "projects": [
     {
-      "id": "txukun",
-      "tag": "others",
-      "title": {
-        "eu": "Txukun",
-        "en": "Txukun"
-      },
-      "url": "https://itzune.eus/txukun/",
-      "body": {
-        "eu": "Euskarazko testu zuzentzailea — maiuskulak, puntuazioa eta ortografia.",
-        "en": "Basque text correction — capitalization, punctuation and spelling."
-      }
-    },
-    {
       "id": "txukun-cli",
       "tag": "others",
+      "date": "2026-06-28",
       "title": {
         "eu": "Txukun CLI",
         "en": "Txukun CLI"
@@ -27,8 +15,37 @@
       }
     },
     {
+      "id": "txukun",
+      "tag": "others",
+      "date": "2026-06-27",
+      "title": {
+        "eu": "Txukun",
+        "en": "Txukun"
+      },
+      "url": "https://itzune.eus/txukun/",
+      "body": {
+        "eu": "Euskarazko testu zuzentzailea — maiuskulak, puntuazioa eta ortografia.",
+        "en": "Basque text correction — capitalization, punctuation and spelling."
+      }
+    },
+    {
+      "id": "txukun-cap-punct-eu",
+      "tag": "models",
+      "date": "2026-06-26",
+      "title": {
+        "eu": "Txukun Cap+Punct (ONNX)",
+        "en": "Txukun Cap+Punct (ONNX)"
+      },
+      "url": "https://huggingface.co/itzune/txukun-cap-punct-eu",
+      "body": {
+        "eu": "Maiuskulak eta puntuazioa berrezartzeko ONNX eredu kuantizatua.",
+        "en": "Quantized ONNX model for capitalization and punctuation restoration."
+      }
+    },
+    {
       "id": "evaleu",
       "tag": "others",
+      "date": "2026-05-15",
       "title": {
         "eu": "Evaleu",
         "en": "Evaleu"
@@ -42,6 +59,7 @@
     {
       "id": "nongoeuskara",
       "tag": "others",
+      "date": "2026-04-20",
       "title": {
         "eu": "Nongoeuskara",
         "en": "Nongoeuskara"
@@ -55,6 +73,7 @@
     {
       "id": "piper-demo",
       "tag": "others",
+      "date": "2026-04-10",
       "title": {
         "eu": "Piper TTS Demo",
         "en": "Piper TTS Demo"
@@ -66,73 +85,9 @@
       }
     },
     {
-      "id": "txukun-cap-punct-eu",
-      "tag": "models",
-      "title": {
-        "eu": "Txukun Cap+Punct (ONNX)",
-        "en": "Txukun Cap+Punct (ONNX)"
-      },
-      "url": "https://huggingface.co/itzune/txukun-cap-punct-eu",
-      "body": {
-        "eu": "Maiuskulak eta puntuazioa berrezartzeko ONNX eredu kuantizatua.",
-        "en": "Quantized ONNX model for capitalization and punctuation restoration."
-      }
-    },
-    {
-      "id": "zeineuski",
-      "tag": "models",
-      "title": {
-        "eu": "Zeineuski",
-        "en": "Zeineuski"
-      },
-      "url": "https://huggingface.co/itzune/zeineuski",
-      "body": {
-        "eu": "Euskalki identifikazioa.",
-        "en": "Basque dialect identification."
-      }
-    },
-    {
-      "id": "whisper-basque-ft",
-      "tag": "models",
-      "title": {
-        "eu": "Whisper euskaraz",
-        "en": "Whisper euskaraz"
-      },
-      "url": "https://huggingface.co/collections/xezpeleta/whisper-basque-fine-tuning",
-      "body": {
-        "eu": "Whisper euskaraz eredu bilduma.",
-        "en": "Fine-tuned Whisper collection for Basque."
-      }
-    },
-    {
-      "id": "piper-tts",
-      "tag": "models",
-      "title": {
-        "eu": "Piper TTS ahotsak",
-        "en": "Piper TTS voices"
-      },
-      "url": "https://huggingface.co/collections/itzune/piper-tts",
-      "body": {
-        "eu": "Euskarazko Piper TTS ahots bilduma.",
-        "en": "Collection of Basque Piper TTS voices."
-      }
-    },
-    {
-      "id": "antzoki-tts",
-      "tag": "models",
-      "title": {
-        "eu": "Antzoki TTS",
-        "en": "Antzoki TTS"
-      },
-      "url": "https://huggingface.co/itzune/antzoki-tts",
-      "body": {
-        "eu": "Euskarazko testutik-ahotsera eredua.",
-        "en": "Basque text-to-speech model."
-      }
-    },
-    {
       "id": "parakeet-tdt",
       "tag": "models",
+      "date": "2026-03-15",
       "title": {
         "eu": "Parakeet-TDT-0.6b-v3-basque",
         "en": "Parakeet-TDT-0.6b-v3-basque"
@@ -146,6 +101,7 @@
     {
       "id": "antton-dataset",
       "tag": "datasets",
+      "date": "2026-02-20",
       "title": {
         "eu": "Antton Datu-multzoa",
         "en": "Antton Dataset"
@@ -159,6 +115,7 @@
     {
       "id": "maider-dataset",
       "tag": "datasets",
+      "date": "2026-02-15",
       "title": {
         "eu": "Maider Datu-multzoa",
         "en": "Maider Dataset"
@@ -167,6 +124,62 @@
       "body": {
         "eu": "Euskarazko hizketa ereduak garatzeko datu-multzo irekia.",
         "en": "Open dataset for Basque speech model development."
+      }
+    },
+    {
+      "id": "antzoki-tts",
+      "tag": "models",
+      "date": "2026-01-25",
+      "title": {
+        "eu": "Antzoki TTS",
+        "en": "Antzoki TTS"
+      },
+      "url": "https://huggingface.co/itzune/antzoki-tts",
+      "body": {
+        "eu": "Euskarazko testutik-ahotsera eredua.",
+        "en": "Basque text-to-speech model."
+      }
+    },
+    {
+      "id": "zeineuski",
+      "tag": "models",
+      "date": "2025-12-10",
+      "title": {
+        "eu": "Zeineuski",
+        "en": "Zeineuski"
+      },
+      "url": "https://huggingface.co/itzune/zeineuski",
+      "body": {
+        "eu": "Euskalki identifikazioa.",
+        "en": "Basque dialect identification."
+      }
+    },
+    {
+      "id": "whisper-basque-ft",
+      "tag": "models",
+      "date": "2025-11-20",
+      "title": {
+        "eu": "Whisper euskaraz",
+        "en": "Whisper euskaraz"
+      },
+      "url": "https://huggingface.co/collections/xezpeleta/whisper-basque-fine-tuning",
+      "body": {
+        "eu": "Whisper euskaraz eredu bilduma.",
+        "en": "Fine-tuned Whisper collection for Basque."
+      }
+    },
+    {
+      "id": "piper-tts",
+      "tag": "models",
+      "date": "2025-10-15",
+      "title": {
+        "eu": "Piper TTS ahotsak",
+        "en": "Piper TTS voices"
+      },
+      "url": "https://huggingface.co/collections/itzune/piper-tts",
+      "body": {
+        "eu": "Euskarazko Piper TTS ahots bilduma.",
+        "en": "Collection of Basque Piper TTS voices."
       }
     }
   ]

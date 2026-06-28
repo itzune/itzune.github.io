@@ -1,0 +1,115 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Itzune — proiektuak / projects</title>
+    <link>https://itzune.eus/</link>
+    <description>Itzune kolektiboaren proiektuen jarioa — euskarazko AI ereduak, datu-multzoak eta tresnak.</description>
+    <language>eu</language>
+    <lastBuildDate>Sun, 28 Jun 2026 18:23:40 +0000</lastBuildDate>
+    <atom:link href="https://itzune.eus/rss.xml" rel="self" type="application/rss+xml"/>
+  <item>
+    <title>Txukun CLI</title>
+    <link>https://github.com/itzune/txukun-cli</link>
+    <guid isPermaLink="false">txukun-cli</guid>
+    <description>Komando-lerroko testu zuzentzailea — ONNX eredu kuantizatuarekin.</description>
+    <category>Tresnak</category>
+    <pubDate>Sun, 28 Jun 2026 00:00:00 +0000</pubDate>
+  </item>
+  <item>
+    <title>Txukun</title>
+    <link>https://itzune.eus/txukun/</link>
+    <guid isPermaLink="false">txukun</guid>
+    <description>Euskarazko testu zuzentzailea — maiuskulak, puntuazioa eta ortografia.</description>
+    <category>Tresnak</category>
+    <pubDate>Sat, 27 Jun 2026 00:00:00 +0000</pubDate>
+  </item>
+  <item>
+    <title>Txukun Cap+Punct (ONNX)</title>
+    <link>https://huggingface.co/itzune/txukun-cap-punct-eu</link>
+    <guid isPermaLink="false">txukun-cap-punct-eu</guid>
+    <description>Maiuskulak eta puntuazioa berrezartzeko ONNX eredu kuantizatua.</description>
+    <category>Ereduak</category>
+    <pubDate>Fri, 26 Jun 2026 00:00:00 +0000</pubDate>
+  </item>
+  <item>
+    <title>Evaleu</title>
+    <link>https://itzune.github.io/evaleu/</link>
+    <guid isPermaLink="false">evaleu</guid>
+    <description>Euskarazko LLM ebaluazio leaderboard-a.</description>
+    <category>Tresnak</category>
+    <pubDate>Fri, 15 May 2026 00:00:00 +0000</pubDate>
+  </item>
+  <item>
+    <title>Nongoeuskara</title>
+    <link>https://itzune.eus/nongoeuskara/</link>
+    <guid isPermaLink="false">nongoeuskara</guid>
+    <description>Zein euskalki da hau?</description>
+    <category>Tresnak</category>
+    <pubDate>Mon, 20 Apr 2026 00:00:00 +0000</pubDate>
+  </item>
+  <item>
+    <title>Piper TTS Demo</title>
+    <link>https://itzune.github.io/basque-piper-tts/</link>
+    <guid isPermaLink="false">piper-demo</guid>
+    <description>Euskarazko Piper TTS demo interaktiboa.</description>
+    <category>Tresnak</category>
+    <pubDate>Fri, 10 Apr 2026 00:00:00 +0000</pubDate>
+  </item>
+  <item>
+    <title>Parakeet-TDT-0.6b-v3-basque</title>
+    <link>https://huggingface.co/itzune/parakeet-tdt-0.6b-v3-basque</link>
+    <guid isPermaLink="false">parakeet-tdt</guid>
+    <description>Euskarazko hizketa ereduaren checkpoint-a.</description>
+    <category>Ereduak</category>
+    <pubDate>Sun, 15 Mar 2026 00:00:00 +0000</pubDate>
+  </item>
+  <item>
+    <title>Antton Datu-multzoa</title>
+    <link>https://huggingface.co/datasets/itzune/antton-dataset</link>
+    <guid isPermaLink="false">antton-dataset</guid>
+    <description>Euskarazko hizketa ereduak garatzeko datu-multzo irekia.</description>
+    <category>Datu-multzoak</category>
+    <pubDate>Fri, 20 Feb 2026 00:00:00 +0000</pubDate>
+  </item>
+  <item>
+    <title>Maider Datu-multzoa</title>
+    <link>https://huggingface.co/datasets/itzune/maider-dataset</link>
+    <guid isPermaLink="false">maider-dataset</guid>
+    <description>Euskarazko hizketa ereduak garatzeko datu-multzo irekia.</description>
+    <category>Datu-multzoak</category>
+    <pubDate>Sun, 15 Feb 2026 00:00:00 +0000</pubDate>
+  </item>
+  <item>
+    <title>Antzoki TTS</title>
+    <link>https://huggingface.co/itzune/antzoki-tts</link>
+    <guid isPermaLink="false">antzoki-tts</guid>
+    <description>Euskarazko testutik-ahotsera eredua.</description>
+    <category>Ereduak</category>
+    <pubDate>Sun, 25 Jan 2026 00:00:00 +0000</pubDate>
+  </item>
+  <item>
+    <title>Zeineuski</title>
+    <link>https://huggingface.co/itzune/zeineuski</link>
+    <guid isPermaLink="false">zeineuski</guid>
+    <description>Euskalki identifikazioa.</description>
+    <category>Ereduak</category>
+    <pubDate>Wed, 10 Dec 2025 00:00:00 +0000</pubDate>
+  </item>
+  <item>
+    <title>Whisper euskaraz</title>
+    <link>https://huggingface.co/collections/xezpeleta/whisper-basque-fine-tuning</link>
+    <guid isPermaLink="false">whisper-basque-ft</guid>
+    <description>Whisper euskaraz eredu bilduma.</description>
+    <category>Ereduak</category>
+    <pubDate>Thu, 20 Nov 2025 00:00:00 +0000</pubDate>
+  </item>
+  <item>
+    <title>Piper TTS ahotsak</title>
+    <link>https://huggingface.co/collections/itzune/piper-tts</link>
+    <guid isPermaLink="false">piper-tts</guid>
+    <description>Euskarazko Piper TTS ahots bilduma.</description>
+    <category>Ereduak</category>
+    <pubDate>Wed, 15 Oct 2025 00:00:00 +0000</pubDate>
+  </item>
+  </channel>
+</rss>
