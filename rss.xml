@@ -5,8 +5,16 @@
     <link>https://itzune.eus/</link>
     <description>Itzune kolektiboaren proiektuen jarioa — euskarazko AI ereduak, datu-multzoak eta tresnak.</description>
     <language>eu</language>
-    <lastBuildDate>Sun, 28 Jun 2026 18:24:55 +0000</lastBuildDate>
+    <lastBuildDate>Mon, 20 Jul 2026 20:45:28 +0000</lastBuildDate>
     <atom:link href="https://itzune.eus/rss.xml" rel="self" type="application/rss+xml"/>
+  <item>
+    <title>FUTO-Basque</title>
+    <link>https://github.com/itzune/futo-basque</link>
+    <guid isPermaLink="false">futo-basque</guid>
+    <description>Euskarazko hurrengo hitzaren iragarpen eredua FUTO teklatuarentzat.</description>
+    <category>Ereduak</category>
+    <pubDate>Mon, 20 Jul 2026 00:00:00 +0000</pubDate>
+  </item>
   <item>
     <title>Txukun CLI</title>
     <link>https://github.com/itzune/txukun-cli</link>
