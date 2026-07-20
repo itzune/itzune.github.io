@@ -1,6 +1,20 @@
 {
   "projects": [
     {
+      "id": "futo-basque",
+      "tag": "models",
+      "date": "2026-07-20",
+      "title": {
+        "eu": "FUTO-Basque",
+        "en": "FUTO-Basque"
+      },
+      "url": "https://github.com/itzune/futo-basque",
+      "body": {
+        "eu": "Euskarazko hurrengo hitzaren iragarpen eredua FUTO teklatuarentzat.",
+        "en": "Basque next-word prediction model for the FUTO keyboard."
+      }
+    },
+    {
       "id": "txukun-cli",
       "tag": "others",
       "date": "2026-06-28",
