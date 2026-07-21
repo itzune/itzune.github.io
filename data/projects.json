@@ -1,6 +1,20 @@
 {
   "projects": [
     {
+      "id": "futo-voice-basque",
+      "tag": "models",
+      "date": "2026-07-21",
+      "title": {
+        "eu": "FUTO Voice Basque",
+        "en": "FUTO Voice Basque"
+      },
+      "url": "https://huggingface.co/itzune/whisper-small-eu-acft-ggml",
+      "body": {
+        "eu": "Euskarazko ahotsezko sarrera eredua FUTO teklatuarentzat (ACFT Whisper).",
+        "en": "Basque voice input model for the FUTO keyboard (ACFT Whisper)."
+      }
+    },
+    {
       "id": "futo-basque",
       "tag": "models",
       "date": "2026-07-20",
