@@ -1,6 +1,34 @@
 {
   "projects": [
     {
+      "id": "pocket-tts-basque",
+      "tag": "models",
+      "date": "2026-10-18",
+      "title": {
+        "eu": "Pocket TTS Basque",
+        "en": "Pocket TTS Basque"
+      },
+      "url": "https://itzune.eus/pocket-tts-basque/",
+      "body": {
+        "eu": "Euskarazko ahots-sintesi eredu arina, Kyutai-ren Pocket TTS-n oinarritua eta CPU arrunt batean denbora errealean dabilena: bost ahots, ahots-klonazioa, eta demoa Piper eta OmniVoice-rekin alderatuta.",
+        "en": "Lightweight Basque text-to-speech based on Kyutai's Pocket TTS, running in real time on an ordinary CPU: five voices, voice cloning, and a demo page comparing it with Piper and OmniVoice."
+      }
+    },
+    {
+      "id": "bssd",
+      "tag": "datasets",
+      "date": "2026-10-17",
+      "title": {
+        "eu": "BSSD — euskarazko ahots sintetikoen datu-multzoa",
+        "en": "BSSD — Basque Synthetic Speech Dataset"
+      },
+      "url": "https://huggingface.co/datasets/itzune/bssd",
+      "body": {
+        "eu": "470 orduko euskarazko ahots sintetikoak (364.870 esaldi, 2.400 ahots baino gehiago), hitz-mailako lerrokatzeekin eta kalitate-iragazkiekin, ahots-sintesi ereduak entrenatzeko. CC BY-SA 4.0.",
+        "en": "470 hours of synthetic Basque speech (364,870 utterances, 2,400+ voices) with word alignments and quality filtering, for training text-to-speech models. CC BY-SA 4.0."
+      }
+    },
+    {
       "id": "futo-voice-basque",
       "tag": "models",
       "date": "2026-07-21",
