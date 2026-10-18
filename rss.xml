@@ -5,8 +5,24 @@
     <link>https://itzune.eus/</link>
     <description>Itzune kolektiboaren proiektuen jarioa — euskarazko AI ereduak, datu-multzoak eta tresnak.</description>
     <language>eu</language>
-    <lastBuildDate>Tue, 21 Jul 2026 15:54:22 +0000</lastBuildDate>
+    <lastBuildDate>Sun, 18 Oct 2026 20:06:31 +0000</lastBuildDate>
     <atom:link href="https://itzune.eus/rss.xml" rel="self" type="application/rss+xml"/>
+  <item>
+    <title>Pocket TTS Basque</title>
+    <link>https://itzune.eus/pocket-tts-basque/</link>
+    <guid isPermaLink="false">pocket-tts-basque</guid>
+    <description>Euskarazko ahots-sintesi eredu arina, Kyutai-ren Pocket TTS-n oinarritua eta CPU arrunt batean denbora errealean dabilena: bost ahots, ahots-klonazioa, eta demoa Piper eta OmniVoice-rekin alderatuta.</description>
+    <category>Ereduak</category>
+    <pubDate>Sun, 18 Oct 2026 00:00:00 +0000</pubDate>
+  </item>
+  <item>
+    <title>BSSD — euskarazko ahots sintetikoen datu-multzoa</title>
+    <link>https://huggingface.co/datasets/itzune/bssd</link>
+    <guid isPermaLink="false">bssd</guid>
+    <description>470 orduko euskarazko ahots sintetikoak (364.870 esaldi, 2.400 ahots baino gehiago), hitz-mailako lerrokatzeekin eta kalitate-iragazkiekin, ahots-sintesi ereduak entrenatzeko. CC BY-SA 4.0.</description>
+    <category>Datu-multzoak</category>
+    <pubDate>Sat, 17 Oct 2026 00:00:00 +0000</pubDate>
+  </item>
   <item>
     <title>FUTO Voice Basque</title>
     <link>https://huggingface.co/itzune/whisper-small-eu-acft-ggml</link>
